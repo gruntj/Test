@@ -1,0 +1,132 @@
+
+@media(max-width: 1250px){
+
+header {
+flex-direction: column;
+    
+}
+
+.flower {
+width: 55%;
+}
+
+.home {
+align-self: center;
+margin: 15px;
+}
+
+
+.burger{
+align-self: center;
+display: block;
+margin-bottom: 50px;
+z-index: 2;
+}
+
+
+header> .burger:hover ~.nav{
+display: block;
+}
+
+.nav{
+position: absolute;
+top: 205px;
+align-self: center;
+height: 500px;
+width: 368px;
+display: none;
+background: #f3f3f3e8;
+z-index: 2;
+}
+
+.nav:hover{
+    display: block;
+}
+
+
+header> .nav >ul {
+flex-direction: column;
+z-index: 9;
+}
+
+
+header .nav ul li a{
+display: block;
+text-align: center;
+
+}
+
+.sub {
+left: -102px;
+align-self: center;
+
+}
+.sub>.more:hover>.sub> ul >li > a{
+display: block;
+text-align: center;
+
+}
+
+.sub2 {
+top:61px;
+left: -12px;
+position: absolute;
+background: #ffff;
+}
+
+.sub:hover> ul >li > a{
+display: block;
+text-align: center;
+
+}
+.sub> ul >li > a{
+display: block;
+text-align: center;
+
+}
+
+.contacts>p {
+align-self: center;
+}
+.contacts>span {
+align-self: center;
+}
+
+/*========================slider================================*/
+.slick-slider{
+    display: none;
+}
+.slider-block {
+justify-content: center;
+position: relative;
+display: flex;
+max-width: 95%;
+min-height: 500px;
+    }
+.block-content>span>p {
+font-size: 29px;
+}
+
+.p>.disc {
+font-family: 'HelveticaNeueCyr-Bold', sans-serif;
+font-size: 54px;
+color: #8fc37b;
+align-items: flex-end;
+margin: 10px;
+}
+
+
+.shap {
+position: absolute;
+bottom: -377px;
+}
+
+
+.flower2 {
+top: 310px;
+width: 81%;
+}
+
+
+}
+
