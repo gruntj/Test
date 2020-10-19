@@ -1,0 +1,105 @@
+
+
+
+@media (max-width: 1110px) {
+.logo {
+position: inherit;
+}
+
+nav{
+width: 271px;
+display: none;
+margin-top: 56px;
+top: 94px;
+background: #d7e9cd;
+text-align: center;
+z-index: 2;
+}
+
+nav ul{
+flex-direction: column;
+}
+nav ul li{
+margin: 15px 0px;
+}
+
+nav>ul> li>a {
+color: #000;
+}
+
+nav> ul> li> .more {
+color: #000
+}
+
+
+.dropdown1>.sub {
+    background: #f6f6f6;
+}
+.dropdown1 {
+left: -13px;
+}
+
+.dropdown2 {
+position: absolute;
+left: -248px;
+ }
+.sub2 {
+    top: 16px;
+    left: 248px;
+    background: #d7e9cd;
+    width: 247px;
+}
+
+
+.burger{
+display: block;
+margin: 31px;
+top: 87px;
+z-index: 2;
+}
+
+header .burger:hover ~nav{
+display: block;
+margin-top: 56px;
+}
+
+
+nav:hover{
+display: block;
+margin-top: 56px;
+
+}
+.contacts {
+    position: static;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+	
+}
+
+
+@media (max-width: 660px) {
+.girl{
+ padding: 0px; 
+}
+.girl-image>img {
+    display: none;
+   
+}
+
+
+
+}
+
+@media (max-width: 470px) {
+.text-container:after {
+    right: 0px;
+    top: 0;
+    transform: rotate(180deg);
+}
+
+	
+}
